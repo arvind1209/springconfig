@@ -1,2 +1,9 @@
 environment:
   name: This is the default configuration
+spring:
+  datasource:
+    url:  jdbc:h2:mem:hellodb
+    driver-class-name:  org.h2.Driver
+    username:  abc
+    password:  password
+  
